@@ -9,12 +9,12 @@
 HyperNetX
 ==========
 
-<img src="https://raw.githubusercontent.com/pnnl/HyperNetX/master/docs/source/images/harrypotter_basic_hyp.png" align="right" width="300pt">
+<img src="https://raw.githubusercontent.com/pnnl/HyperNetX-Graph-Analysis/master/docs/source/images/harrypotter_basic_hyp.png" align="right" width="300pt">
 
-[![Pytest](https://github.com/pnnl/HyperNetX/actions/workflows/ci.yml/badge.svg)](https://github.com/pnnl/HyperNetX/actions/workflows/ci.yml)
+[![Pytest](https://github.com/pnnl/HyperNetX/actions/workflows/ci.yml/badge.svg)](https://github.com/pnnl/HyperNetX-Graph-Analysis/actions/workflows/ci.yml)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 [![linting: pylint](https://img.shields.io/badge/linting-pylint-yellowgreen)](https://github.com/PyCQA/pylint)
-[![CITATION.cff](https://github.com/pnnl/HyperNetX/actions/workflows/cff.yml/badge.svg)](https://github.com/pnnl/HyperNetX/actions/workflows/cff.yml)
+[![CITATION.cff](https://github.com/pnnl/HyperNetX-Graph-Analysis/actions/workflows/cff.yml/badge.svg)](https://github.com/pnnl/HyperNetX/actions/workflows/cff.yml)
 
 The HyperNetX (HNX) library provides classes and methods for the analysis
 and visualization of complex network data modeled as hypergraphs.
@@ -25,8 +25,7 @@ HNX was originally developed by the Pacific Northwest National Laboratory for th
 Hypernets project as part of its High Performance Data Analytics (HPDA) program.
 It is currently maintained by scientists at PNNL, but contributions and bug fixes
 from the community are welcome and encouraged.
-Please see our [Contributor's Guide](https://hypernetx.readthedocs.io/en/latest/contributions.html)
-for more information.
+
 
 PNNL is operated by Battelle Memorial Institute under Contract DE-ACO5-76RL01830.
 
@@ -39,18 +38,7 @@ PNNL is operated by Battelle Memorial Institute under Contract DE-ACO5-76RL01830
 
 The code in this repository is intended to support researchers modeling data
 as hypergraphs. We have a growing community of users and contributors.
-HNX is a primary contributor to the
-Hypergraph Interchange Format (HIF), a json schema for sharing data
-modeled as hypergraphs. The specification and sample notebooks may be found
-here: https://github.com/pszufe/HIF-standard/tree/main
-Other hypergraph libraries using this standard are listed below:
 
-- [HypergraphX (HGX)](https://github.com/HGX-Team/hypergraphx) (Python)
-- [CompleX Group Interactions (XGI)](https://github.com/xgi-org/xgi) (Python)
-- [SimpleHypergraphs.jl](https://github.com/pszufe/SimpleHypergraphs.jl) (Julia)
-- [Hypergraph-Analysis-Toolbox(HAT)](https://github.com/Jpickard1/Hypergraph-Analysis-Toolbox) (Python)
-
-For questions and comments about HNX contact the developers directly at: hypernetx@pnnl.gov.
 
 Summary - Release highlights - HNX 2.3
 --------------------------------------
@@ -88,37 +76,37 @@ Google Colab
 ------------
 
 
-<a href="https://colab.research.google.com/github/pnnl/HyperNetX/blob/master/tutorials/basic/Basic%201%20-%20HNX%20Basics.ipynb" target="_blank">
+<a href="https://colab.research.google.com/github/pnnl/HyperNetX-Graph-Analysis/blob/master/tutorials/basic/Basic%201%20-%20HNX%20Basics.ipynb" target="_blank">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
     <span >Basic 1 - HNX Basics</span>
 </a>
 <br>
 
-<a href="https://colab.research.google.com/github/pnnl/HyperNetX/blob/master/tutorials/basic/Basic%202%20-%20Visualization%20Methods.ipynb" target="_blank">
+<a href="https://colab.research.google.com/github/pnnl/HyperNetX-Graph-Analysis/blob/master/tutorials/basic/Basic%202%20-%20Visualization%20Methods.ipynb" target="_blank">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
     <span >Basic 2 - Visualization Methods</span>
 </a>
 <br>
 
-<a href="https://colab.research.google.com/github/pnnl/HyperNetX/blob/master/tutorials/basic/Basic%203%20-%20LesMis%20Case%20Study.ipynb" target="_blank">
+<a href="https://colab.research.google.com/github/pnnl/HyperNetX-Graph-Analysis/blob/master/tutorials/basic/Basic%203%20-%20LesMis%20Case%20Study.ipynb" target="_blank">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
     <span >Basic 3 - LesMis Case Study</span>
 </a>
 <br>
 
-<a href="https://colab.research.google.com/github/pnnl/HyperNetX/blob/master/tutorials/basic/Basic%204%20-%20LesMis%20Visualizations-BookTour.ipynb" target="_blank">
+<a href="https://colab.research.google.com/github/pnnl/HyperNetX-Graph-Analysis/blob/master/tutorials/basic/Basic%204%20-%20LesMis%20Visualizations-BookTour.ipynb" target="_blank">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
     <span >Basic 4 - LesMis Visualizations-Book Tour</span>
 </a>
 <br>
 
-<a href="https://colab.research.google.com/github/pnnl/HyperNetX/blob/master/tutorials/basic/Basic%205%20-%20HNX%20attributed%20hypergraph.ipynb" target="_blank">
+<a href="https://colab.research.google.com/github/pnnl/HyperNetX-Graph-Analysis/blob/master/tutorials/basic/Basic%205%20-%20HNX%20attributed%20hypergraph.ipynb" target="_blank">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
     <span >Basic 5 - HNX attributed hypergraph</span>
 </a>
 <br>
 
-<a href="https://colab.research.google.com/github/pnnl/HyperNetX/blob/master/tutorials/basic/Basic%206%20-%20Hypergraph%20Arithmetic.ipynb" target="_blank">
+<a href="https://colab.research.google.com/github/pnnl/HyperNetX-Graph-Analysis/blob/master/tutorials/basic/Basic%206%20-%20Hypergraph%20Arithmetic.ipynb" target="_blank">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
     <span >Basic 6 - Hypergraph Arithmetic.ipynb</span>
 </a>
@@ -135,7 +123,7 @@ Installation
 
 The recommended installation method for most users is to create a virtual environment and install HyperNetX from PyPi.
 
-HyperNetX may be cloned or forked from [GitHub](https://github.com/pnnl/HyperNetX).
+HyperNetX may be cloned or forked from [GitHub](https://github.com/pnnl/HyperNetX-Graph-Analysis).
 
 Prerequisites
 -------------
@@ -215,12 +203,7 @@ source venv-hnx/bin/activate
 make install
 ```
 
-# Using HyperNetX on Docker
 
-As an alternative to installing HyperNetX, you can use the officially supported HyperNetX Docker image maintained at
-[DockerHub](https://hub.docker.com/r/hypernetx/hypernetx). Use the image to quickly start HyperNetX in a Docker container.
-The container starts a Jupyter Notebook that has the latest version of HyperNetX and HNXWidget installed;
-it also contains all the HyperNetX tutorials.
 
 ## Run the Container
 
